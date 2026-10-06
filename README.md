@@ -4,6 +4,7 @@ Control presentations by waving your hand. Built with OpenCV and Python.
 
 Supports PowerPoint (.pptx), PDF, and image folders. Two modes: viewer (renders slides with animated backdrop) or control (sends arrow keys to PowerPoint/Keynote/Google Slides).
 
+The "wave_slider_simple.py" is the simpler version without the webcam, waves, or any extra things. It is just the hand gestures and your file and nothing else.
 
 ## Requirements
 
