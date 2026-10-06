@@ -1,0 +1,23 @@
+camera:
+  index: 0
+  width: 320
+  height: 240
+
+window:
+  width: 1280
+  height: 720
+  fullscreen: false
+
+wave_detection:
+  sensitivity: 5  # 1-10
+  frame_rate_ms: 45  # milliseconds between frames
+  
+wave_animation:
+  phase_speed: 0.02
+  boost_increase: 0.15
+  boost_decay: 0.94
+
+colors:
+  deep: [58, 42, 11]      # BGR background top
+  ink: [31, 22, 6]        # BGR background bottom
+  sand: [166, 217, 242]   # BGR text/UI
