@@ -20,8 +20,17 @@ git clone https://github.com/yourusername/wave-slides.git
 cd wave-slides
 pip install opencv-python numpy pymupdf pyyaml pyautogui
 ```
+## Note: Filesystem
 
-
+Keep the files installed inside the same folder or else it won't work. See format below:
+```
+WaveSlider/
+├── __pycache__/
+├── config.yaml
+├── config_manager.py
+├── wave_slides.py
+└── wave_slides_simple.py
+```
 ## Quick Start
 
 Viewer mode:
